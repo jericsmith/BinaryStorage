@@ -1,0 +1,52 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26430.16
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BinaryStorage.Semaphore", "BinaryStorage.Semaphore\BinaryStorage.Semaphore.csproj", "{140B3D15-69FC-4DD3-9F28-3F568C9E37E6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BinaryStorage.File.ReadWrite", "BinaryStorage.File.ReadWrite\BinaryStorage.File.ReadWrite.csproj", "{BDBCF878-25BA-41C9-8046-56A3E5ABC4A8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BinaryStorage.AddressStorage.Tests", "BinaryStorage.AddressStorage.Tests\BinaryStorage.AddressStorage.Tests.csproj", "{32EF5EAB-F270-481C-95E9-1E3F8C8D472F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BinaryStorage.AddressStorage", "BinaryStorage.AddressStorage\BinaryStorage.AddressStorage.csproj", "{55154A45-3465-48C9-92A3-A2E329D5826B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BinaryStorage.Abstractions", "BinaryStorage.Abstractions\BinaryStorage.Abstractions.csproj", "{0BC4FBDF-ADEC-4E7B-BDE1-A29BD135D55A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BinaryAddressStorage.Demo", "BinaryAddressStorage.Demo\BinaryAddressStorage.Demo.csproj", "{5F707E01-210B-4B5A-8239-64F9FDDF009A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{140B3D15-69FC-4DD3-9F28-3F568C9E37E6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{140B3D15-69FC-4DD3-9F28-3F568C9E37E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{140B3D15-69FC-4DD3-9F28-3F568C9E37E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{140B3D15-69FC-4DD3-9F28-3F568C9E37E6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BDBCF878-25BA-41C9-8046-56A3E5ABC4A8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BDBCF878-25BA-41C9-8046-56A3E5ABC4A8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BDBCF878-25BA-41C9-8046-56A3E5ABC4A8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BDBCF878-25BA-41C9-8046-56A3E5ABC4A8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{32EF5EAB-F270-481C-95E9-1E3F8C8D472F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{32EF5EAB-F270-481C-95E9-1E3F8C8D472F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{32EF5EAB-F270-481C-95E9-1E3F8C8D472F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{32EF5EAB-F270-481C-95E9-1E3F8C8D472F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{55154A45-3465-48C9-92A3-A2E329D5826B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{55154A45-3465-48C9-92A3-A2E329D5826B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{55154A45-3465-48C9-92A3-A2E329D5826B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{55154A45-3465-48C9-92A3-A2E329D5826B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0BC4FBDF-ADEC-4E7B-BDE1-A29BD135D55A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0BC4FBDF-ADEC-4E7B-BDE1-A29BD135D55A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0BC4FBDF-ADEC-4E7B-BDE1-A29BD135D55A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0BC4FBDF-ADEC-4E7B-BDE1-A29BD135D55A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5F707E01-210B-4B5A-8239-64F9FDDF009A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5F707E01-210B-4B5A-8239-64F9FDDF009A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5F707E01-210B-4B5A-8239-64F9FDDF009A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5F707E01-210B-4B5A-8239-64F9FDDF009A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
