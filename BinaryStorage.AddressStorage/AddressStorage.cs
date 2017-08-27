@@ -23,8 +23,7 @@ namespace BinaryStorage.AddressStorage
             _dataFilePath = dataFilePath;
         }
 
-        private static AddressStorage Instance => SingletonContainer.StorageContainerInstance;
-        public static AddressStorage StorageInstance => Instance;
+        public static AddressStorage StorageInstance => SingletonContainer.StorageContainerInstance;
 
         public void WriteAddress(IAddress address)
         {

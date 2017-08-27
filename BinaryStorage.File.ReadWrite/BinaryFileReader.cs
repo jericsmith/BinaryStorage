@@ -9,14 +9,11 @@ namespace BinaryStorage.File.ReadWrite
         private System.IO.BinaryReader _bDataFile;
         private readonly object _lockObject = new object();
 
-      public BinaryFileReader(string filePath)
+        public BinaryFileReader(string filePath)
         {
-            if (_bDataFile != null) return;
-            lock (_lockObject)
-            {
-                if(_bDataFile == null)
-                    _bDataFile = new System.IO.BinaryReader(new FileStream(filePath, FileMode.OpenOrCreate,FileAccess.Read,FileShare.ReadWrite));
-            }
+
+            _bDataFile = new System.IO.BinaryReader(new FileStream(filePath, FileMode.OpenOrCreate, FileAccess.Read,
+                FileShare.ReadWrite));
         }
 
         public string Read()
